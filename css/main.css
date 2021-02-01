@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: #FFBCA8;
+    background-color: #ffffff;
 }
 nav ul, footer ul {
     font-family: "Courier New", Courier, monospace;
@@ -19,7 +19,7 @@ nav ul li, footer ul li {
 h1 {
     font-size: 3em;
     font-family:"Courier New", Courier, monospace;
-    color: #F1724C;
+    color: #fc0808;
     background: linear-gradient(180deg, rgba(255,255,255,0) 45%, #FFD0AE 45%);
 }
 

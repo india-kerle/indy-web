@@ -1,0 +1,117 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+    background-color: #FFBCA8;
+}
+nav ul, footer ul {
+    font-family: "Courier New", Courier, monospace;
+    fotnt-size: 1.5em;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    color: #D03D12;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    font-family:"Courier New", Courier, monospace;
+    color: #F1724C;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 45%, #FFD0AE 45%);
+}
+
+h3 {
+    font-size: 1em;
+    font-family:"Courier New", Courier, monospace;
+    font-weight: normal;
+    color: #F1724C;
+}
+
+hr { border: 0px; border-bottom: 1px solid #FFD0AE; }
+
+p {
+    font-size: 1.5em;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.4em;
+    color: #D03D12;
+}
+
+mini {
+    font-family: "Courier New", Courier, monospace;
+    text-align:center;
+    font-size: 1em;
+    list-style: none;
+    color: #D03D12;
+}
+    
+
+a {
+    text-decoration: none;
+    color: #882203;
+}
+
+img { 
+    width: 250px; 
+    height: 165px;
+}
+
+figure {
+  margin:2px;
+  display:inline-block;
+  vertical-align:top;
+  text-align:center
+}
+
+.wrapper {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  vertical-align: bottom;
+	
+}
+
+.hover12 figure {
+	opacity: 0.5;
+}
+.hover12 figure img {
+	opacity: 0.5;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover12 figure:hover img {
+	opacity: 1;
+}
+
+.caption {
+    display: block;
+}
+
+/* Skew Forward */
+.hvr-skew-forward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.hvr-skew-forward:hover, .hvr-skew-forward:focus, .hvr-skew-forward:active {
+  -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
